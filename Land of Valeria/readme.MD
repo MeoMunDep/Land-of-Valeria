@@ -1,4 +1,5 @@
 📞 Contact
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
 
 > If you encounter any issues or have questions, feel free to reach out:
 
@@ -14,9 +15,15 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
 
-> Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
+Before running the bot, make sure you have the following installed:
+
+- **Node.js** (Version: `22.11.0`)
+- **npm** (Version: `10.9.0`)
+
+Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+
+-> Double click on `setup.bat` for windows or `setup.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
 
 1. **Install Dependencies and Modules:**
 
@@ -38,12 +45,12 @@ To get started with the bot, follow these steps:
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
+  "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
+  "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "playGames": true,
-  "referralCode": "" // Do not change it if you want to support me ^^
+  "upgradeArtifacts": true,
+  "amountOfArtifactsUpgrades": 5
 }
 ```
 
@@ -56,6 +63,9 @@ cookie
 ```
 
 ### 3. `wallets.txt` 💼 - Cannot update yet.
+
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+
 
 ```txt - wallet address
 abc...xyz
@@ -76,6 +86,6 @@ socks5://user:password@host:port
 
 > The bot will login failed manytime, just wait until it done, or retrive `cookie` again, don't yappin.
 > You need to `cd` to the file after extract it.
-> To run the bot, use the following command: `node bot`
+> To run the bot, use the following command: `cd "land of valeria-main/land of valeria"; node meomundep`
 
 🎇Enjoy!
